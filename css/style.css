@@ -10,21 +10,54 @@
     display: block;
     clear: both;
 }
+.clearfix::before{
+    content:'';
+    display: block;
+    clear: both;
+}
 /* text */
-h1{
+h1,h2,h3,h4{
     font-family: 'Fredoka', sans-serif;
-    color: #E53170;
-    text-align: center;
-    font-size: 56px;
-    padding: 40px;
 }
 p{
     font-family: 'Fredoka', sans-serif;
     font-size: 22px;
     text-align: center;
 }
+h1{
+    color: #E53170;
+    text-align: center;
+    font-size: 56px;
+    padding: 40px;
+}
+h3{
+    font-size: 24px;
+    
+}
+h4{
+    font-size: 16px;
+}
 /* main */
 .container{
     width: 1150px;
     margin: auto;
+}
+.team-cards{
+    width: calc(100% / 3 - 20px);
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.photo{
+    width: 100px;
+    float: left;
+}
+.info{
+    float: left;
+    padding: 14px;
+}
+a{
+    color: lightskyblue;
+    text-decoration: none;
+    
 }
