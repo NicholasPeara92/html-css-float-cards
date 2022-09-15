@@ -13,5 +13,18 @@
 /* text */
 h1{
     font-family: 'Fredoka', sans-serif;
-
+    color: #E53170;
+    text-align: center;
+    font-size: 56px;
+    padding: 40px;
+}
+p{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 22px;
+    text-align: center;
+}
+/* main */
+.container{
+    width: 1150px;
+    margin: auto;
 }
