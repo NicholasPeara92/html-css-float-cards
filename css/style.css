@@ -12,6 +12,11 @@
     clear: both;
 }
 
+.container{
+    max-width: 1150px;
+    margin: auto;
+}
+
 /* text */
 h1,h2,h3,h4{
     font-family: 'Fredoka', sans-serif;
@@ -40,10 +45,6 @@ h4{
 }
 
 /* main */
-.container{
-    width: 1150px;
-    margin: auto;
-}
 
 .team-cards{
     width: calc(100% / 3 - 20px);
