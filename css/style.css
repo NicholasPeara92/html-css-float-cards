@@ -59,6 +59,7 @@ h4{
     width: 100px;
     float: left;
     object-fit: cover;
+    display: block;
 }
 
 .info{
