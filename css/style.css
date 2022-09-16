@@ -12,12 +12,6 @@
     clear: both;
 }
 
-.clearfix::before{
-    content:'';
-    display: block;
-    clear: both;
-}
-
 /* text */
 h1,h2,h3,h4{
     font-family: 'Fredoka', sans-serif;
